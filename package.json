@@ -6,7 +6,13 @@
   "repository": "https://github.com/thiagompc/mycontacts.git",
   "author": "Thiago <thiago099carvalho@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
